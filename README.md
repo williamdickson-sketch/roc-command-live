@@ -1,13 +1,19 @@
-ROC Command Mobile Edition v1.9.1 — Command Tab Fix
+ROC Command Mobile Edition v1.9.2 — Operations Hub
 
-Fixes:
-- Adds the missing Command navigation tab
-- Keeps all ten navigation tabs visible on iPhone
-- Corrects top safe-area spacing
-- Shows the exact table name when a database table or policy needs attention
+This update combines:
+- Personnel
+- Fleet
+- Scheduling
+
+They now appear together under one Operations tab.
+
+The bottom navigation is reduced to:
+Home, Command, Operations, Assignments, Reports, Cameras, Library, and Settings.
+
+No new Supabase SQL is required.
 
 Install:
-1. Upload index.html and README.md to roc-command-live.
+1. Upload index.html and README.md to the public roc-command-live repository.
 2. Commit the changes.
-3. Wait for GitHub Pages to show a green deployment check.
-4. Open the site using ?v=191.
+3. Wait for GitHub Pages to finish publishing.
+4. Open the site using ?v=192.
