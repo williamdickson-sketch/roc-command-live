@@ -1,8 +1,13 @@
-ROC Command Mobile Edition v1.9 — Live Command Center
+ROC Command Mobile Edition v1.9.1 — Command Tab Fix
 
-Adds officer status, today's shifts, dispatches, emergency alerts, and new dashboard counts.
+Fixes:
+- Adds the missing Command navigation tab
+- Keeps all ten navigation tabs visible on iPhone
+- Corrects top safe-area spacing
+- Shows the exact table name when a database table or policy needs attention
 
 Install:
-1. Run supabase_live_command_setup.sql in Supabase SQL Editor.
-2. Upload index.html, netlify.toml, and README.md to roc-command-live.
-3. Commit, wait for GitHub Pages, and refresh ROC Command.
+1. Upload index.html and README.md to roc-command-live.
+2. Commit the changes.
+3. Wait for GitHub Pages to show a green deployment check.
+4. Open the site using ?v=191.
