@@ -1,16 +1,18 @@
-ROC Command Mobile Edition v2.2 — Administration Center
+ROC Command Mobile Edition v2.0 — Clients & Sites
 
 Adds:
-- View user profiles
-- Assign Founder, Deputy Director, Supervisor, or Officer roles
-- Activate and deactivate accounts
-- Edit account display names
-- System connection status
-
-Important: Authentication users are still created or invited safely through Supabase Authentication. This app does not expose a secret administrator key.
+- Client profiles
+- Client contact information
+- Service type and account status
+- Protected sites
+- Site addresses
+- Access instructions
+- Emergency contacts
+- Camera notes
+- Dashboard client and site counts
 
 Install:
-1. Run supabase_admin_center_setup.sql in Supabase SQL Editor.
+1. Run supabase_clients_sites_setup.sql in Supabase SQL Editor.
 2. Upload index.html and README.md to roc-command-live.
-3. Commit and wait for GitHub Pages.
-4. Open the site with ?v=220.
+3. Commit changes and wait for GitHub Pages.
+4. Open the site with ?v=200.
